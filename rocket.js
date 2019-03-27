@@ -1,5 +1,6 @@
-let rocket = function(color, size) {
-  ;(this.color = color), (this.size = size)
+var Rocket = function (color, size) {
+  this.color = color;
+  this.size = size;
 }
 
-module.exports = rocket
+module.exports = Rocket;
