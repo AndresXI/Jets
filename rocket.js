@@ -1,0 +1,5 @@
+let rocket = function(color, size) {
+  ;(this.color = color), (this.size = size)
+}
+
+module.exports = rocket
